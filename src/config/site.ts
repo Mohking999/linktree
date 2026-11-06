@@ -37,8 +37,8 @@ export const MAIN_LINKS: NavLink[] = [
   {
     id: 'contact-us',
     title: 'Contact Us',
-    subtitle: 'Direct chat with our team on WhatsApp',
-    url: 'https://wa.me/213550123456?text=Hello%20MyStyle,%20I%20would%20like%20more%20information%20about%20your%20services',
+    subtitle: '06 54 28 33 13 • Direct chat on WhatsApp',
+    url: 'https://wa.me/213654283313?text=Bonjour%20MyStyle,%20je%20souhaite%20des%20informations%20sur%20vos%20services',
     iconName: 'MessageCircle',
   },
   {
@@ -51,9 +51,8 @@ export const MAIN_LINKS: NavLink[] = [
   {
     id: 'tiktok',
     title: 'TikTok',
-    subtitle: '@mystyledz • Behind-the-scenes & trends',
-    url: 'https://tiktok.com/@mystyledz',
+    subtitle: '@aingoall1 • Behind-the-scenes & trends',
+    url: 'https://www.tiktok.com/@aingoall1?_r=1&_t=ZS-9BB5GoWKR42',
     iconName: 'TikTok',
   },
 ];
-
