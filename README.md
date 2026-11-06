@@ -1,75 +1,58 @@
-# MyStyle Linktree — Bio Links & Studio Sur-Mesure Hub
+# MyStyle — Link-in-Bio Landing Page
 
-Un site Link-in-Bio moderne et luxueux, conçu sur-mesure pour **MyStyle Algérie**. Il centralise tous les canaux digitaux, l'accès direct au Studio de confection sur-mesure, à la boutique prêt-à-porter, aux réseaux sociaux, et à la prise de contact WhatsApp avec nos maîtres tailleurs.
+An elegant, Linktree-inspired landing page for **MyStyle**, directing visitors to the official digital services and boutique.
 
----
-
-## 🌟 Fonctionnalités
-
-1. **🎨 3 Thèmes de Haute Couture :**
-   - **Obsidian Noir :** Esthétique sombre luxueuse avec bordures dorées et reflets brillants.
-   - **Casbah Ivoire :** Tons chauds inspirés de la Casbah d’Alger et de la terracotta saharienne.
-   - **Émeraude Royale :** Vert émeraude traditionnel rehaussé de touches d’or majboud.
-
-2. **🌍 Multilingue avec Support RTL Intégral :**
-   - Français (FR)
-   - العربية (AR) avec inversion automatique de la direction (`dir="rtl"`) et typographie arabe.
-   - English (EN)
-
-3. **🔗 Cartes de Liens Interactives :**
-   - **Effet Shimmer animé** sur les liens phares (Studio Sur-Mesure et Boutique).
-   - Badges dynamiques (`EXCLUSIVITÉ`, `LIVRAISON 48H`, `EN LIGNE`).
-   - Filtrage par catégorie : *Tous les liens*, *Sur-mesure & Boutique*, *Services & Ateliers*.
-
-4. **📱 QR Code & Partage Réseaux :**
-   - **Générateur QR Code intégré :** Pour affichage rapide lors de salons, foires nuptiales ou en boutique physique.
-   - **Modal de partage :** Envoi direct vers WhatsApp, Telegram, ou copie du lien avec notification toast.
-
-5. **💌 Inscription VIP Cercle Privé :**
-   - Formulaire de capture email pour délivrer un code de réduction de 10% sur la première confection.
+**Main Destination:** [https://mystyledz.online/](https://mystyledz.online/)  
+**Live GitHub Pages:** [https://mohking999.github.io/linktree/](https://mohking999.github.io/linktree/)
 
 ---
 
-## 🚀 Démarrage Rapide
+## 🌟 Visual Design & Identity
 
-### 1. Lancer le serveur de développement (Port 5174)
+- **Brand:** MyStyle
+- **Tagline:** *Your Style. Your Design. Your Identity.*
+- **Description:** *Discover a new way to design and personalize your clothing.*
+- **Background:** Full-screen photographic background with cinematic dark overlay.
+- **Buttons:** Elegant peach-colored buttons (`#EFB38F`) featuring handmade paper-inspired deckled edges.
+- **Typography:** Refined white editorial typography.
+- **Mobile-First:** Clean responsive layout optimized for all screen sizes.
+
+---
+
+## 🔗 Main Links (Centralized in `src/config/site.ts`)
+
+1. **Explore MyStyle** — [https://mystyledz.online/](https://mystyledz.online/)
+2. **Create Your Custom Outfit** — [https://mystyledz.online/custom/studio](https://mystyledz.online/custom/studio)
+3. **Discover Our Services** — [https://mystyledz.online/services](https://mystyledz.online/services)
+4. **Contact Us** — Direct WhatsApp chat (`06 54 28 33 13`)
+5. **Instagram** — [@mylstyle1](https://www.instagram.com/mylstyle1)
+6. **TikTok** — [@aingoall1](https://www.tiktok.com/@aingoall1?_r=1&_t=ZS-9BB5GoWKR42)
+
+---
+
+## 🚀 Quick Start
+
+### 1. Install dependencies
 ```bash
-cd linktree
+npm install
+```
+
+### 2. Run local development server
+```bash
 npm run dev
 ```
-Accédez ensuite à [http://localhost:5174](http://localhost:5174).
 
-### 2. Compiler pour la production
+### 3. Build for production
 ```bash
 npm run build
 ```
-Les fichiers statiques optimisés seront générés dans le dossier `dist/`.
 
 ---
 
-## 📂 Architecture du Projet
+## ⚙️ Automated GitHub Pages Deployment
 
-```text
-linktree/
-├── index.html              # Point d'entrée HTML avec typographies Playfair & Cairo
-├── package.json            # Dépendances et scripts Vite
-├── tailwind.config.js      # Palette dorée, émeraude et polices
-├── postcss.config.js       # Configuration PostCSS
-├── vite.config.ts          # Configuration du serveur Vite
-├── tsconfig.json           # Configuration TypeScript
-├── src/
-│   ├── main.tsx            # Point d'entrée React
-│   ├── App.tsx             # Composant principal avec gestion d'état (thèmes, langues, onglets)
-│   ├── types.ts            # Définitions TypeScript
-│   ├── index.css           # Styles Tailwind et animations glassmorphism / shimmer
-│   ├── data/
-│   │   └── links.ts        # Données des liens officiels et profils
-│   └── components/
-│       ├── LinkCard.tsx    # Carte de lien interactive avec badges et icônes
-│       ├── ThemeToggle.tsx # Sélecteur de thème
-│       ├── LangToggle.tsx  # Sélecteur de langue (FR / AR / EN)
-│       ├── QRCodeModal.tsx # Fenêtre modale de scan QR Code
-│       ├── ShareModal.tsx  # Fenêtre modale de partage social
-│       └── ContactCard.tsx # Carte d'inscription Cercle Privé VIP
-```
+The repository includes a GitHub Actions workflow in `.github/workflows/deploy.yml` that automatically builds and deploys the landing page on every push to `main`.
 
+To enable:
+1. Navigate to **Settings > Pages** in the GitHub repository.
+2. Under **Build and deployment > Source**, select **GitHub Actions**.
