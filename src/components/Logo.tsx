@@ -1,23 +1,19 @@
 import React from 'react';
+import logoImg from '../assets/logo.png';
 
-export const Logo: React.FC<{ className?: string }> = ({ className = 'w-16 h-16' }) => {
+export const Logo: React.FC<{ className?: string }> = ({ className = 'w-20 h-20' }) => {
   return (
     <div className={`relative flex items-center justify-center ${className}`}>
-      {/* Outer handmade ring */}
-      <div className="absolute inset-0 rounded-full border border-white/30 backdrop-blur-sm bg-black/25 shadow-xl" />
-      {/* Delicate peach ring */}
-      <div className="absolute inset-1 rounded-full border border-[#EFB38F]/60" />
-      {/* Monogram emblem */}
-      <div className="relative z-10 flex flex-col items-center justify-center text-center">
-        <span className="font-serif text-2xl font-bold tracking-[0.15em] text-white">
-          M
-        </span>
-        <div className="w-4 h-[1px] bg-[#EFB38F] my-0.5" />
-        <span className="text-[7px] font-mono tracking-[0.3em] uppercase text-white/80">
-          STYLE
-        </span>
+      {/* Delicate peach aura glow */}
+      <div className="absolute -inset-1 rounded-3xl bg-gradient-to-tr from-[#EFB38F]/40 to-transparent blur-sm pointer-events-none" />
+      {/* Official MyStyle Logo Container */}
+      <div className="relative w-full h-full rounded-[24px] overflow-hidden border border-white/25 shadow-2xl bg-black">
+        <img
+          src={logoImg}
+          alt="MyStyle Logo"
+          className="w-full h-full object-cover select-none"
+        />
       </div>
     </div>
   );
 };
-
