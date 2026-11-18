@@ -25,7 +25,7 @@ An elegant, Linktree-inspired landing page for **MyStyle**, directing visitors t
 2. **Create Your Custom Outfit** — [https://mystyledz.online/custom/studio](https://mystyledz.online/custom/studio)
 3. **Discover Our Services** — [https://mystyledz.online/services](https://mystyledz.online/services)
 4. **Contact Us** — Direct WhatsApp chat (`06 54 28 33 13`)
-5. **Instagram** — [@mylstyle1](https://www.instagram.com/mylstyle1)
+5. **Instagram** — [@mystyle.dz](https://www.instagram.com/mystyle.dz?bqrl=bXZydW1zZjRsOWpk)
 6. **TikTok** — [@aingoall1](https://www.tiktok.com/@aingoall1?_r=1&_t=ZS-9BB5GoWKR42)
 
 ---

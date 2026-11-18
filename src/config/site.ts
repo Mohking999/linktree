@@ -44,8 +44,8 @@ export const MAIN_LINKS: NavLink[] = [
   {
     id: 'instagram',
     title: 'Instagram',
-    subtitle: '@mylstyle1 • Collections & runway looks',
-    url: 'https://www.instagram.com/mylstyle1',
+    subtitle: '@mystyle.dz • Collections & runway looks',
+    url: 'https://www.instagram.com/mystyle.dz?bqrl=bXZydW1zZjRsOWpk',
     iconName: 'Instagram',
   },
   {
