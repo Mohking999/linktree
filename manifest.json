@@ -1,0 +1,18 @@
+{
+  "name": "MyStyle | Links",
+  "short_name": "MyStyle",
+  "description": "Discover a new way to design and personalize your clothing.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#EFB38F",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
+
